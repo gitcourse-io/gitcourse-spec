@@ -61,7 +61,7 @@ The meaning of each field is described as follows:
 | title | string | "" | The title of the course |
 | author | string | "" | The author of the course |
 | description | string | "" | The description of the course |
-| scenarios | array | [] | The scenarios included in the course, the order of each scenario corresponding to the order when rendered as a GitCourse |
+| scenarios | array | [] | The scenarios included in the course, the order of each scenario corresponds to the order when rendered as a GitCourse |
 
 ## Scenario
 The `scenarios` in `course.json` is an array of `Scenario` which contains necessary configurations to build an interactive scenario. For example:
@@ -94,7 +94,7 @@ The available properties is listed as follows:
 | description | string | - | The description of this scenario |
 | environment | enum {'ubuntu', 'git', 'mysql', 'docker'} | 'ubuntu' | The container environment for the scenario, we support limited environments currently |
 | scripts | object | {} | The scripts runs automatically when scenario starts, eg: {background: 'background.sh', foreground: 'foreground.sh} |
-| steps | array | [] | The steps in this scenario, the order of step corresponding to the order when rendered, the properties of step please refer to details bellow |
+| steps | array | [] | The steps in this scenario, the order of step corresponds to the order when rendered, the properties of step please refer to details bellow |
 
 ## Step
 The `steps` field in `scenario` object is a list of `Step` object, for example:
