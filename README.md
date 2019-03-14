@@ -1,6 +1,6 @@
 # GitCourse Spec  
 ## GitCourse Project Structure  
-Each GitCourse project has a `course.json` in it's root directory, `course.json` defines all the configurations related the course like title, author, scenarios and so on.  
+Each GitCourse project has a `course.json` in it's root directory, `course.json` defines all the configurations related to the course like title, author, scenarios and so on.  
   
 One typical directory structure of GitCourse is shown as follows:  
 ```$xslt  
