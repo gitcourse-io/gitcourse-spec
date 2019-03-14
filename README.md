@@ -87,6 +87,7 @@ The `scenarios` in `course.json` is an array of `Scenario` which contains necess
     }
 ```
 The available properties is listed as follows:
+
 | field | type | default value | description |
 |--|--|--|--|
 | title | string  | - | The title which shows when scenario opened|
@@ -109,6 +110,7 @@ The `steps` field in `scenario` object is a list of `Step` object, for example:
 }
 ```
 The available properties is listed as follows:
+
 | field | type | default value | description |
 |--|--|--|--|
 | title | string  | - | The title the step|
